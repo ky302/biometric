@@ -3,6 +3,7 @@ import logo from "../assets/biometric.png";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Cookies from "js-cookie";
+// import Visible from "./visible";
 
 const Login = () => {
   let Navigate = useNavigate();
@@ -10,6 +11,12 @@ const Login = () => {
     email: "",
     password: "",
   });
+
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
 
   const handleChange = (event) => {
     let value = event.target.value;
@@ -70,11 +77,27 @@ const Login = () => {
                 <input
                   onChange={handleChange}
                   value={input.password}
-                  type="password"
+                  type={showPassword ? "text" : "password"}
                   className="form-control block w-full px-4 py-1 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded-lg transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-slate-600 focus:outline-none"
                   name="password"
                   placeholder="Password"
                 />
+                {/* <button
+                  type="button"
+                  onClick={togglePasswordVisibility}
+                  className=" text-white focus:outline-none"
+                >
+                  {showPassword ? "Hide" : "Show"}
+                </button> */}
+                <label className="inline-flex items-center cursor-pointer pt-2">
+                  <input
+                    type="checkbox"
+                    checked={showPassword}
+                    onChange={togglePasswordVisibility}
+                    className="form-checkbox text-red-400 h-3 w-3"
+                  />
+                  <span className="text-white ml-2">Show Password</span>
+                </label>
               </div>
 
               <button
