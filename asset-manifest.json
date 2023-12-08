@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/biometric/static/css/main.150a7128.css",
-    "main.js": "/biometric/static/js/main.0ffb9de6.js",
+    "main.css": "/biometric/static/css/main.444283a0.css",
+    "main.js": "/biometric/static/js/main.6f867dd6.js",
     "static/js/787.425e3d8a.chunk.js": "/biometric/static/js/787.425e3d8a.chunk.js",
     "static/media/small-touring-boat-sailing-night 1.png": "/biometric/static/media/small-touring-boat-sailing-night 1.43142bd287f550b721e4.png",
+    "static/media/iris.jpg": "/biometric/static/media/iris.5b081424e9ad3df2d672.jpg",
+    "static/media/face.jpg": "/biometric/static/media/face.7ad8d24384b047afb6fd.jpg",
+    "static/media/finger.jpg": "/biometric/static/media/finger.e64efd9cc1388f66b430.jpg",
     "static/media/Group 18.png": "/biometric/static/media/Group 18.79922d947c2b797d0196.png",
     "static/media/Group 7.png": "/biometric/static/media/Group 7.60c4bd407ad9fa676b66.png",
     "static/media/biometric.png": "/biometric/static/media/biometric.4117c334d5fddb422bca.png",
     "index.html": "/biometric/index.html",
-    "main.150a7128.css.map": "/biometric/static/css/main.150a7128.css.map",
-    "main.0ffb9de6.js.map": "/biometric/static/js/main.0ffb9de6.js.map",
+    "main.444283a0.css.map": "/biometric/static/css/main.444283a0.css.map",
+    "main.6f867dd6.js.map": "/biometric/static/js/main.6f867dd6.js.map",
     "787.425e3d8a.chunk.js.map": "/biometric/static/js/787.425e3d8a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.150a7128.css",
-    "static/js/main.0ffb9de6.js"
+    "static/css/main.444283a0.css",
+    "static/js/main.6f867dd6.js"
   ]
 }
