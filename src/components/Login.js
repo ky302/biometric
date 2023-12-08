@@ -3,7 +3,6 @@ import logo from "../assets/biometric.png";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Cookies from "js-cookie";
-// import Visible from "./visible";
 
 const Login = () => {
   let Navigate = useNavigate();
@@ -82,13 +81,7 @@ const Login = () => {
                   name="password"
                   placeholder="Password"
                 />
-                {/* <button
-                  type="button"
-                  onClick={togglePasswordVisibility}
-                  className=" text-white focus:outline-none"
-                >
-                  {showPassword ? "Hide" : "Show"}
-                </button> */}
+
                 <label className="inline-flex items-center cursor-pointer pt-2">
                   <input
                     type="checkbox"

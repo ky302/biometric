@@ -132,9 +132,18 @@ const RegisrtrationForm = () => {
                     autoComplete="country-name"
                     className="mt-1 block w-full rounded-md border border-red-500 bg-white py-1 px-1 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
                   >
-                    <option>DKI Jakarta</option>
-                    <option>Daerah Istimewa Yogyakarta</option>
-                    <option>Jawa Barat</option>
+                    <option>Nanggroe Aceh Darussalam</option>
+                    <option>Sumatera Utara</option>
+                    <option>Sumatera Selatan </option>
+                    <option>Sumatera Barat</option>
+                    <option>Bengkulu</option>
+                    <option>Riau</option>
+                    <option>Kepulauan Riau</option>
+                    <option>Jambi</option>
+                    <option>Lampung</option>
+                    <option>Bangka Belitung</option>
+                    <option>Kalimantan Barat</option>
+                    <option>Kalimantan Timur</option>
                   </select>
                 </div>
 
@@ -431,7 +440,7 @@ const RegisrtrationForm = () => {
               <div className="mt-2">
                 <button
                   type="button"
-                  className="text-white bg-slate-400 hover:bg-slate-500 focus:ring-0 focus:outline-none font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center"
+                  className="text-white bg-red-500 hover:bg-red-600 focus:ring-0 focus:outline-none font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center"
                   onClick={clearSignature}
                 >
                   Clear Signature
@@ -442,7 +451,7 @@ const RegisrtrationForm = () => {
           <div className=" flex justify-end mt-8 w-4/6 ">
             <button
               onClick=""
-              className=" relative text-white bg-slate-400 hover:bg-slate-500 focus:ring-0 focus:outline-none font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center"
+              className=" relative text-white bg-red-500 hover:bg-red-600 focus:ring-0 focus:outline-none font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center"
               type="button"
             >
               Simpan

@@ -12,10 +12,6 @@ const Dashboard = (props) => {
     navigate("/");
   };
 
-  // window.addEventListener('click', (e)=>{
-  //   console.log(e.target === menuRef.current);
-  // })
-
   return (
     <form>
       <div className="container w-full h-screen overflow-auto relative bg-gradient-to-br from-slate-700 to-stone-400 ">
@@ -70,9 +66,6 @@ const Dashboard = (props) => {
                     <hr />
                   </div>
                   <div>
-                    <div className=" block px-4 py-2 cursor-pointer text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
-                      Setting
-                    </div>
                     <div className=" block px-4 py-2 cursor-pointer text-sm text-gray-700 hover:bg-gray-100 dark:hover:bg-gray-600 dark:text-gray-200 dark:hover:text-white">
                       Setting
                     </div>
