@@ -20,7 +20,7 @@ const Macth = () => {
               className=" relative mt-2 text-black bg-slate-400 hover:bg-slate-500 focus:ring-0 focus:outline-none font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center"
               type="button"
             >
-              More
+              Get Started
             </button>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Macth = () => {
               className=" relative mt-2 text-black bg-slate-400 hover:bg-slate-500 focus:ring-0 focus:outline-none font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center"
               type="button"
             >
-              More
+              Get Started
             </button>
           </div>
         </div>
@@ -52,7 +52,7 @@ const Macth = () => {
               className=" relative mt-2 text-black bg-slate-400 hover:bg-slate-500 focus:ring-0 focus:outline-none font-medium rounded-xl text-sm px-4 py-2.5 text-center inline-flex items-center"
               type="button"
             >
-              More
+              Get Started
             </button>
           </div>
         </div>
